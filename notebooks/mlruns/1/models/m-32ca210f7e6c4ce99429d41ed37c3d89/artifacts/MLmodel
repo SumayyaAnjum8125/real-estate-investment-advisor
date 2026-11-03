@@ -1,0 +1,23 @@
+artifact_path: file:d:/real_estate_project/notebooks/mlruns/1/models/m-32ca210f7e6c4ce99429d41ed37c3d89/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-32ca210f7e6c4ce99429d41ed37c3d89
+model_size_bytes: 989062
+model_uuid: m-32ca210f7e6c4ce99429d41ed37c3d89
+prompts: null
+run_id: 7ead426630a34b3d8042ef76716568ae
+utc_time_created: '2026-11-03 06:08:28.095277'
